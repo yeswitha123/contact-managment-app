@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html > 
+<head>
+ 
+  <title>Contact Management App</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Contact Manager</h1>
+    <form id="contactForm">
+      <input type="text" id="firstName" placeholder="First Name" required />
+      <input type="text" id="lastName" placeholder="Last Name" required />
+      <input type="text" id="address" placeholder="Address" required />
+      <input type="email" id="email" placeholder="Email ID" required />
+      <input type="tel" id="phone" placeholder="Phone Number" required />
+      <button type="submit">Save Contact</button>
+    </form>
+
+    <h2>Contact List</h2>
+    <div id="contactList"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html> 
